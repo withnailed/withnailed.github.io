@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TolgSoft</title>
+  <title>Withnailed</title>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo3.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/logo51.png" type="image/x-icon">
 
   <!--
     - custom css link
@@ -42,7 +42,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/logo1.jpg" alt="Richard hanrick" width="80">
+          <img src="./assets/images/logo51.png" alt="Richard hanrick" width="80">
         </figure>
 
         <div class="info-content">
@@ -114,8 +114,8 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://github.com/withnailed" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
@@ -147,26 +147,24 @@
 
     <div class="main-content">
 
-      <!--
-        - #NAVBAR ilerde açılacak...
-      -->
-      <!--
+      
+      
       <nav class="navbar">
 
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link>Hakkımda</button>
           </li>
-
+         
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
-
+          
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Portfolyo</button>
           </li>
-
+          <!--
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
           </li>
@@ -174,12 +172,12 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
-
+          -->
         </ul>
 
       </nav>
 
-         -->
+         
 
 
 
@@ -187,7 +185,7 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+      <article class="about  active" data-page="hakkımda">
 
         <header>
           <h2 class="h2 article-title">Hakkımda</h2>
@@ -197,7 +195,7 @@
           <p>
             Ben Tolga bilgisayar mühendisliği öğrencisiyim. Kendimi geliştirmek için bu siteyi yaptım ve yaptığım
             projeleri burda
-            paylaşıyor olacağım yakında, beklemede kalın.
+            paylaşıyor olacağım yakında, takipte kalın.
           </p>
 
           <p>
@@ -307,7 +305,7 @@
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Kod, espiri gibidir. Açıklamak zorundaysanız kötüdür.
+                    Kod, espiri gibidir. Açıklamak zorundaysanız kötüdür.<br>
                   </p>
                 </div>
 
@@ -343,8 +341,9 @@
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Jordi Boggiano</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
-                  <p>
+                  <p><br>
                     Kodunuzda NE yerine NEDEN'e odaklanmak sizi daha iyi bir geliştirici yapar.
+                    <br>
                   </p>
                 </div>
 
@@ -361,8 +360,9 @@
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Albert Einstein</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
-                  <p>
+                  <p><br>
                     Mantık sizi A noktasından B noktasına götürür. Hayal gücü her yere.
+                    <br>
                   </p>
                 </div>
 
@@ -378,8 +378,8 @@
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Jim Highsmith</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Bir projeyi daha hızlı bitirmenin en iyi yolu, erkenden başlamaktır.
+                  <p><br>
+                    Bir projeyi daha hızlı bitirmenin en iyi yolu, erkenden başlamaktır.<br>
                   </p>
                 </div>
 
@@ -390,6 +390,50 @@
 
         </section>
 
+
+         <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
 
        
 
@@ -406,7 +450,7 @@
 
             <li class="clients-item">
               <a href="https://www.merkez.com.tr/">
-                <img src="./assets/images/logomerkez.png" alt="client logo">
+                <img src="./assets/images/logomerkez.png" style="height: 170px; width: 170px;" alt="client logo">
               </a>
             </li>
 
@@ -416,29 +460,7 @@
               </a>
             </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
+           
 
           </ul>
 
@@ -467,51 +489,37 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3">Eğitim Hayatım</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">Akşamseddin Anadolu Lisesi</h4>
 
-              <span>2007 — 2008</span>
+              <span>2016 — 2020</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                
+    
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+              <h4 class="h4 timeline-item-title">Gaziantep İslam Bilim ve Teknoloji Üniversitesi</h4>
 
-              <span>2006 — 2007</span>
+              <span>2021 -</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                
               </p>
 
             </li>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
+           
 
           </ol>
 
@@ -524,7 +532,7 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <h3 class="h3">İş Hayatım</h3>
           </div>
 
           <ol class="timeline-list">
@@ -647,10 +655,10 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="portfolyo">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Portfolyo</h2>
         </header>
 
         <section class="projects">
@@ -658,19 +666,19 @@
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+              <button class="active" data-filter-btn>Hepsi</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Web Tasarım</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Uygulamalar</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Web Programlama</button>
             </li>
 
           </ul>
@@ -679,7 +687,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-selecct-value>Kategoriler</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -690,19 +698,19 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item>All</button>
+                <button data-select-item>Hepsi</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Web Tasarım</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Uygulamalar</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Web Programlama</button>
               </li>
 
             </ul>
@@ -711,9 +719,9 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="web programlama" >
               <a href="#">
-                <!--
+                
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
@@ -722,13 +730,13 @@
                   <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Şimdilik Projelerim github üzerinde yayındalar.</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Web Programlama</p>
 
               </a>
             </li>
-              
+              <!--
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
